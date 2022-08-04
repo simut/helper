@@ -11,6 +11,6 @@ if (!function_exists('env')) {
      */
     function env($key, $default = null)
     {
-        echo Env::get($key, $default);
+        return Env::get($key, $default);
     }
 }
