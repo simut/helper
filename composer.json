@@ -1,18 +1,19 @@
 {
-    "name": "range/test",
-    "description": "test",
+    "name": "range/helper",
+    "description": "A helper component for range",
     "autoload": {
         "psr-4": {
-            "Range\\Test\\": "src/"
-        }
+            "Range\\Helper\\": "src/"
+        },
+        "files": [
+            "src/Functions.php"
+        ]
     },
+    "minimum-stability": "stable",
     "authors": [
         {
             "name": "range",
             "email": "range@qq.com"
         }
-    ],
-    "require": {
-        "php": ">=7.3"
-    }
+    ]
 }
