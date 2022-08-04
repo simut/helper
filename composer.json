@@ -15,5 +15,8 @@
             "name": "range",
             "email": "range@qq.com"
         }
-    ]
+    ],
+    "require": {
+        "millionmile/get_env": "^1.0"
+    }
 }
